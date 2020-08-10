@@ -1,17 +1,37 @@
+@font-face {
+    font-family: 'Lobster Two';
+    src: url('../fonts/Lobster_Two/LobsterTwo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+
+html,
 body {
-    background-color:#1f2d40;
-    color:#f5f5f5;
+    background-color: #1f2d40;
+    color: #f5f5f5;
     font-family: 'Roboto', sans-serif;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    margin: 0;
 }
 .menu {
-    background-color:#0e1823;
+    background-color: #0e1823;
 }
 .menu h1 {
-    display:inline-block;
+    display: inline-block;
     background: url('../img/logo-tc.png') no-repeat;
-    width:80px;
-    height:80px;
-    text-indent:-999em;
+    width: 80px;
+    height: 80px;
+    text-indent: -999em;
 }
 .banner {
     font-family: 'Lobster Two', cursive;
